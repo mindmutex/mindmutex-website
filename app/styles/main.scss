@@ -31,47 +31,12 @@ address.contacts {
   }
 }
 
-
-
 /* Space out content a bit */
 body {
   padding: 0px;
   font-size: 15px
 }
 
-/*
-.header {
-  padding-top: 20px;
-  border-bottom: 1px solid $border-bottom-color;
-  img {
-    margin-bottom: 15px;
-  }
-  ul {
-    padding-top: 15px;
-  }
-}
-
-.content {
-  margin-top: 20px;
-}
-
-.instagram {
-  white-space: nowrap;
-  background: #dcf3f9;
-  .container {
-    overflow: hidden;
-  }
-}
-
-.footer {
-  margin-top: 20px;
-  padding-top: 10px;
-  border-top: 1px solid $border-bottom-color;
-  
-  text-align: center;
-  
-}
-*/
 @media screen and (min-width: 768px) {
   .container {
     max-width: 770px;

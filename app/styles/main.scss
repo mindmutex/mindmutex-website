@@ -1,8 +1,44 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+$text-color: #1c5477;
+$link-color: #1c5477;
+$navbar-height: 80px;
 
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
+
+.content-view {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  margin: 30px;
+  border-radius: $border-radius-base;
+}
+  
+.background {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+  background: url('../images/background.jpg') 0 0 no-repeat;
+  background-size: cover;
+}
+
+.navbar-static-top {
+  background: #fff;
+  border: 0;
+  .navbar-brand {
+    img {
+      float: left; 
+      margin-top: -12px;
+      margin-right: 10px;
+    }
+    white-space: nowrap;
+    padding: 22px 15px;
+    color: #1c5477;
+  }
+}
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important;
@@ -26,7 +62,6 @@ address.contacts {
     margin-bottom: 3px;
   }
 }
-
 .navbar-static-top {
   /* because .navbar-brand height is 65px */
   ul.navbar-nav >li>a {
@@ -34,6 +69,14 @@ address.contacts {
     padding-top: 23px;
   }
 }
+
+.intro {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
+.fa-3 { font-size: 3em }
 
 /* Space out content a bit */
 body {

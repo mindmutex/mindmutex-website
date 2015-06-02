@@ -16,7 +16,7 @@ module.exports = function (grunt) {
   require('time-grunt')(grunt);
 
   var modRewrite = require('connect-modrewrite');
-  var modRewriteRule = '!\\.html|\\.js|\\.css|\\.png|\\.mp4|\\.ogg|\\.eot|\\.svg|\\.ttf|\\.woff$ /index.html [L]';
+  var modRewriteRule = '!\\.html|\\.js|\\.css|\\.png|\\.jpg|\\.mp4|\\.ogg|\\.eot|\\.svg|\\.ttf|\\.woff$ /index.html [L]';
 
   // Configurable paths for the application
   var appConfig = {

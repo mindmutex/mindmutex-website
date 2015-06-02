@@ -7,6 +7,9 @@
 				
 		<title>mindmutex - the exclusive lock on software</title>
 		
+		<link href="http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+		<link rel="icon" href="images/logo.png">
+
 		<!-- build:css(.) styles/vendor.css -->
 		<!-- bower:css -->
 		<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
@@ -16,11 +19,14 @@
 		<!-- build:css(.tmp) styles/main.css -->
 		<link rel="stylesheet" href="styles/main.css">
 		<!-- endbuild -->
+		
+		
 	</head>
 	<body ng-app="mindmutexWebsiteApp" ng-cloak>
 		<!--[if lt IE 7]>
 		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
+		<div class="background"></div>
 		
 		<nav class="navbar navbar-default navbar-static-top" role="navigation" ng-controller="HeaderCtrl">
 			<div class="container">
@@ -33,8 +39,9 @@
 					</button>
       					
 					 <a class="navbar-brand" ng-href="/">
+					 	<img src="images/logo.png" >
 					 	MINDMUTEX
-						<small>the exclusive lock on software</small>					 	
+					 	<small>The exclusive lock on software</small>				 	
 					 </a>
 				</div>
 				
@@ -57,7 +64,10 @@
 			</div>
 		</nav>
 		
-		<div class="container" ng-view>
+		<div class="container" >
+			<div class="content-view" ng-view>
+				
+			</div>
 		</div>
 		
 
